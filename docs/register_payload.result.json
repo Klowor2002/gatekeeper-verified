@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "hash": "336f09f6de04e6cbba0bc78d30773c606a428587cf3f4f8aad7065ab5e86341d",
+  "explorer": "https://ccdexplorer.io/testnet/transaction/336f09f6de04e6cbba0bc78d30773c606a428587cf3f4f8aad7065ab5e86341d",
+  "outcome": "unknown",
+  "summary": {
+    "blockHash": "06014e645bdc1108c6c94207ad0340bc35a5ac8de0878cd656aafa493f671b04",
+    "summary": {
+      "index": "0",
+      "energyCost": {
+        "value": "2524",
+        "__type": "ccd_energy"
+      },
+      "hash": "336f09f6de04e6cbba0bc78d30773c606a428587cf3f4f8aad7065ab5e86341d",
+      "type": "accountTransaction",
+      "cost": "18109062",
+      "sender": "3R9ftQ2vHsKWocVvX5SuUYNTRzwzcku6MFG3cHj2tg5sr8S5Am",
+      "transactionType": "update",
+      "events": [
+        {
+          "tag": "Updated",
+          "contractVersion": 1,
+          "address": {
+            "index": "12802",
+            "subindex": "0",
+            "__type": "ccd_contract_address"
+          },
+          "instigator": {
+            "type": "AddressAccount",
+            "address": "3R9ftQ2vHsKWocVvX5SuUYNTRzwzcku6MFG3cHj2tg5sr8S5Am"
+          },
+          "amount": "0",
+          "message": "015500000068747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f4b6c6f776f72323030322f676174656b65657065722d76657269666965642f6d61696e2f6167656e742d636172642e6a736f6e01ba45d659fa99a5bc90866d9dc500ec288dfd1583a6d343cce01983fe29df43d80000000000",
+          "receiveName": "CIS-8004.register",
+          "events": [
+            "fe08040500000000000001003e3a000b42b10baedcff67d717d2e0d0966657c55127385c6ea9711d33f06ae8",
+            "f00804050000000000003e3a000b42b10baedcff67d717d2e0d0966657c55127385c6ea9711d33f06ae8015500000068747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f4b6c6f776f72323030322f676174656b65657065722d76657269666965642f6d61696e2f6167656e742d636172642e6a736f6e01ba45d659fa99a5bc90866d9dc500ec288dfd1583a6d343cce01983fe29df43d8008b0db6f3a1010000",
+            "f5080405000000000000013e3a000b42b10baedcff67d717d2e0d0966657c55127385c6ea9711d33f06ae88b0db6f3a1010000"
+          ]
+        }
+      ]
+    }
+  }
+}

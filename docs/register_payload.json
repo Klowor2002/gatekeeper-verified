@@ -1,0 +1,60 @@
+{
+  "network": "testnet",
+  "contract_address": {
+    "index": 12802,
+    "subindex": 0
+  },
+  "receive_name": "CIS-8004.register",
+  "parameter_json": {
+    "agent_uri": {
+      "Some": [
+        "https://raw.githubusercontent.com/Klowor2002/gatekeeper-verified/main/agent-card.json"
+      ]
+    },
+    "metadata_hash": {
+      "Some": [
+        [
+          186,
+          69,
+          214,
+          89,
+          250,
+          153,
+          165,
+          188,
+          144,
+          134,
+          109,
+          157,
+          197,
+          0,
+          236,
+          40,
+          141,
+          253,
+          21,
+          131,
+          166,
+          211,
+          67,
+          204,
+          224,
+          25,
+          131,
+          254,
+          41,
+          223,
+          67,
+          216
+        ]
+      ]
+    },
+    "external_reference": {
+      "None": []
+    },
+    "initial_metadata": []
+  },
+  "parameter_hex": "015500000068747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f4b6c6f776f72323030322f676174656b65657065722d76657269666965642f6d61696e2f6167656e742d636172642e6a736f6e01ba45d659fa99a5bc90866d9dc500ec288dfd1583a6d343cce01983fe29df43d80000000000",
+  "suggested_energy": 30000,
+  "sender": "3R9ftQ2vHsKWocVvX5SuUYNTRzwzcku6MFG3cHj2tg5sr8S5Am"
+}

@@ -43,8 +43,9 @@ x402 payments with sponsored transactions.
 
 - Owner account: `3R9ftQ2vHsKWocVvX5SuUYNTRzwzcku6MFG3cHj2tg5sr8S5Am`
 - CIS-8004 registry (testnet): contract index 12802
+- **Registered agent: token_id 1284 · token_address `JyP9TxoMgKbY9QTpPqCRF` · status Active · badge_valid = true (registry check, 2026-11-19)**
 - Agent Card: [`agent-card.json`](agent-card.json) — metadata SHA-256
-  `ba45d659fa99a5bc90866d9dc500ec288dfd1583a6d343cce01983fe29df43d8`
+  `528eb36eee7ea58a4487854284af410696771b0c82e2e908d155cf06aeb0b616` (anchored on chain)
 - Registration status: see `docs/BUILD-LOG.md`
 
 ## Path to production
