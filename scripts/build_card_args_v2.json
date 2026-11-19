@@ -1,0 +1,40 @@
+{
+ "agent_uri": "https://raw.githubusercontent.com/Klowor2002/gatekeeper-verified/main/agent-card.json",
+ "description": "The zkVerify Gatekeeper (klowor-gatekeeper) is a live agent that verifies zero-knowledge proofs before money moves: it receives a signed JSON envelope (HMAC-verified), runs deterministic checks on the proof and its conditions, generates a local Groth16 proof, and returns a signed APPROVE / REJECT decision. This project gives that agent a Concordium accountability layer on testnet: a CIS-8004 Agent Registry entry with a combined ERC-8004 / A2A Agent Card carrying the Verified by Concordium badge extension, so any counterparty can confirm an accountable, identity-backed human stands behind the agent before dealing with it. Before accepting a verification job from another agent, the Gatekeeper checks the counterparty's badge and card (contract, active status, on-chain hash match, owner match) using the hosted Agent Registry MCP server; unverified counterparties get a reduced-trust path. Verification calls are payable agent-to-agent via x402 with sponsored fees, and the registry is the public audit trail of the agent's registrations and updates.",
+ "documentation_url": "https://github.com/Klowor2002/gatekeeper-verified#readme",
+ "name": "Gatekeeper, Verified",
+ "network": "testnet",
+ "owner_account": "3R9ftQ2vHsKWocVvX5SuUYNTRzwzcku6MFG3cHj2tg5sr8S5Am",
+ "provider": {
+  "organization": "Klowor2002",
+  "url": "https://github.com/Klowor2002/gatekeeper-verified"
+ },
+ "services": {
+  "gatekeeperEndpoint": "https://klowor-gatekeeper.netlify.app/agent"
+ },
+ "skills": [
+  {
+   "description": "Verifies zkVerify proof attestations against declared conditions (verification key, threshold, recipient, amount, expiry) and returns a signed decision with its own Groth16 proof.",
+   "id": "zk-proof-verification",
+   "name": "zkVerify proof verification",
+   "tags": [
+    "zkverify",
+    "proof-verification",
+    "gatekeeper"
+   ]
+  },
+  {
+   "description": "Before dealing with another agent, checks its Verified by Concordium badge and Agent Card via the Agent Registry: expected contract, active status, card hash anchored on chain, owner match.",
+   "id": "counterparty-badge-check",
+   "name": "Counterparty badge verification",
+   "tags": [
+    "concordium",
+    "identity",
+    "agent-registry",
+    "a2a"
+   ]
+  }
+ ],
+ "version": "1.0.0",
+ "token_id": 1284
+}
